@@ -2,11 +2,29 @@ body {
     margin: 0px;
 }
 
+img {
+    border-radius: 5%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+a:hover {
+    color: #405d27;
+    cursor: pointer;
+}
+
+
 .header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 100px;
+    justify-content: center;
+    height: 275px;
+    background-color: #82b74b;
 }
 
 .header-top {
@@ -45,9 +63,9 @@ body {
 }
 
 .quote {
-    padding: 0px 450px;
+    display: flex;
     margin-bottom: 200px;
-    flex-wrap: nowrap;
+    justify-content: center;
 }
 
 .hire {
