@@ -17,6 +17,32 @@ a:hover {
     cursor: pointer;
 }
 
+p {
+    font-size: 18px;
+}
+
+a.button5{
+     display:inline-block;
+     padding:0.46em 1.6em;
+     border:0.1em solid #000000;
+     margin:0 0.2em 0.2em 0;
+     border-radius:0.12em;
+     box-sizing: border-box;
+     text-decoration:none;
+     font-family:'Roboto',sans-serif;
+     font-weight:300;
+     color:#000000;
+     text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+     background-color:#FFFFFF;
+     text-align:center;
+     transition: all 0.15s;
+    }
+    a.button5:hover{
+     text-shadow: 0 0 2em rgba(255,255,255,1);
+     color:#FFFFFF;
+     border-color:#FFFFFF;
+    }
+
 
 .header {
     display: flex;
@@ -42,20 +68,25 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 150px 300px;
+    padding: 100px 20px;
     gap: 50px;
+    background-color: #f8f7ed;
 }
 
 .cards {
     display: flex;
     justify-content: center;
+    background-color:#d0f0c0;
     gap: 45px;
     margin-bottom: 175px;
+
 }
 
 .title {
     display: flex;
     justify-content: center;
+    background-color: #d0f0c0;
+    padding: 30px 25px 10px;
 }
 
 .card {
