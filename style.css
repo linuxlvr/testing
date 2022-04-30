@@ -21,6 +21,15 @@ p {
     font-size: 18px;
 }
 
+h2 {
+    font-size: 50px;
+    padding: 25px;
+}
+
+h3 {
+    font-size: 34px;
+}
+
 a.button5{
      display:inline-block;
      padding:0.46em 1.6em;
@@ -78,7 +87,6 @@ a.button5{
     justify-content: center;
     background-color:#d0f0c0;
     gap: 45px;
-    margin-bottom: 175px;
 
 }
 
@@ -95,15 +103,18 @@ a.button5{
 
 .quote {
     display: flex;
+    flex-direction: column;
     margin-bottom: 200px;
+    padding: 100px 25px;
     justify-content: center;
+    align-items: center;
+    background-color: #f8f7ed;
 }
 
 .hire {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px
+    background-color: #50c878;
+    width: 1000px
 }
 
 .footer {
