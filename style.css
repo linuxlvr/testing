@@ -114,11 +114,16 @@ a.button5{
 .hire {
     display: flex;
     background-color: #50c878;
-    width: 1000px
+    width: 700px;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    border-radius: 1.5%;
 }
 
 .footer {
     display: flex;
     justify-content: center;
     margin-top: 75px;
+    background-color: #82b74b;
 }
